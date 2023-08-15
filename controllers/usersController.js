@@ -4,9 +4,9 @@ const { create } = require("../models/Users");
 const userController = {
     async getUsers (req, res){
         try{
-            const users = await Users.find()
-                .populate({ path: "statments" , select: "-__v"})
-                .populate({ path: "friends" , select: "-__v"});
+            const users = await Users.find().select("-__v")
+                // .populate({ path: "statments" , select: "-__v"})
+                // .populate({ path: "friends" , select: "-__v"});
             return res.status(200).json(users)
         }catch(err){
             console.log(err);
