@@ -2,6 +2,8 @@
 week 18 challenge 
  ## My task
 
+ My Task was to create a social media Api that works ! It has been done, though i did not like the thoughs name i changed it to statment as I think a statment was a better way to go about it ! I first started by creating the config and models for the routes and what ws going to happen. after that i moved onto the contollers that gave me some trouble but thankfully I was able to move through them and start to build out routes! then i added some simple seeds to get started. I ran into some issues with mongo not being fully set up thankfull a TA helped me work through that issue ! and now I am happy to present NotBook (trademark pending). 
+
 ## User Story
 
 ```md
